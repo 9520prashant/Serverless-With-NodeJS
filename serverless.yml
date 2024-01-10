@@ -1,0 +1,14 @@
+service: serverless-api-http
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  serverless-api-http:
+    handler: Hello.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
