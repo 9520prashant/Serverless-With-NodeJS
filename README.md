@@ -1,6 +1,6 @@
 ## Serverless Framework With NodeJS
 
-### Serverless.yml configuration breakdown
+### serverless.yml configuration breakdown
 
 * Name of the Service.
 
