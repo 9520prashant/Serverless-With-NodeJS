@@ -33,5 +33,5 @@
               method: get
     ```
     
-In the above code handler is a function amed `Hello.handler` to execute when a request is made to the root `path /` on `get` method, and API gateway is HTTP.
+In the above code, handler is a function named `Hello.handler` to execute when a request is made to the root `path /` on `get` method, and API gateway is HTTP.
      
